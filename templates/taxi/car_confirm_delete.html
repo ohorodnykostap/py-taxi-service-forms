@@ -10,6 +10,9 @@
     <button type="submit" class="btn btn-danger">
       Yes, delete
     </button>
+    <a href="{% url "taxi:car-detail" car.id %}" class="btn btn-secondary">
+      Cancel
+    </a>
   </form>
 {% endblock %}
 
